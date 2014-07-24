@@ -117,6 +117,11 @@ static inline NSInteger daysForYearMonth(NSInteger year, NSInteger month){
         [_datePicker selectRow:dayLenth-1 inComponent:kDayComponent animated:YES];
     }
     
+    _year = _years[_yearIndex];
+    _month = _months[_monthIndex];
+    _day = _days[_dayIndex];
+    self.date = [NSDate dateWithYear:[_year intValue] month:_monthIndex+1 day:[_day intValue]];
+    
     if ([self.delegate respondsToSelector: @selector(pickerDidSelectMonth:andYear:)])
         [self.delegate pickerDidSelectMonth: _months[_monthIndex]
                                     andYear: _years[_yearIndex]];
@@ -124,11 +129,8 @@ static inline NSInteger daysForYearMonth(NSInteger year, NSInteger month){
     if ([self.delegate respondsToSelector: @selector(pickerDidSelectRow:inComponent:)])
         [self.delegate pickerDidSelectRow: row inComponent: component];
     
-    
-    _year = _years[_yearIndex];
-    _month = _months[_monthIndex];
-    _day = _days[_dayIndex];
-    self.date = [NSDate dateWithYear:[_year intValue] month:_monthIndex+1 day:[_day intValue]];
+    if ([self.delegate respondsToSelector: @selector(pickerDidSelectDate:)])
+        [self.delegate pickerDidSelectDate:self.date];
 }
 
 
