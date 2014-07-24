@@ -6,9 +6,9 @@
 //  Copyright (c) 2014 ronaldo. All rights reserved.
 //
 
-#import "NSDate+Helper.h"
+#import "NSDate+YMDExtensions.h"
 
-@implementation NSDate (Helper)
+@implementation NSDate (YMDExtensions)
 - (NSInteger)year {
     NSDateComponents *components = [[NSCalendar currentCalendar] components:NSCalendarUnitYear fromDate:self];
     return components.year;
