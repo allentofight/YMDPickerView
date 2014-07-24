@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>545C49A5-E3DE-4885-A9B3-5C6E0F52EF1D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>YMDPickerViewDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>6CC6F171-CE2E-4487-A847-13D5A03B91CD</key>
+		<string>ssh://github.com/xiekunRonaldo/YMDPickerView.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>YMDPickerViewDemo.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>6CC6F171-CE2E-4487-A847-13D5A03B91CD</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/xiekunRonaldo/YMDPickerView.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>6CC6F171-CE2E-4487-A847-13D5A03B91CD</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>6CC6F171-CE2E-4487-A847-13D5A03B91CD</string>
+			<key>IDESourceControlWCCName</key>
+			<string>YMDPickerView</string>
+		</dict>
+	</array>
+</dict>
+</plist>

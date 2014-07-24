@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D154E65C19809FE7006EE615 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D154E65B19809FE7006EE615 /* Foundation.framework */; };
+		D154E65E19809FE7006EE615 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D154E65D19809FE7006EE615 /* CoreGraphics.framework */; };
+		D154E66019809FE7006EE615 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D154E65F19809FE7006EE615 /* UIKit.framework */; };
+		D154E66619809FE7006EE615 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D154E66419809FE7006EE615 /* InfoPlist.strings */; };
+		D154E66819809FE7006EE615 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D154E66719809FE7006EE615 /* main.m */; };
+		D154E66C19809FE7006EE615 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D154E66B19809FE7006EE615 /* AppDelegate.m */; };
+		D154E66F19809FE7006EE615 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D154E66D19809FE7006EE615 /* Main.storyboard */; };
+		D154E67219809FE7006EE615 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D154E67119809FE7006EE615 /* ViewController.m */; };
+		D154E67419809FE7006EE615 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D154E67319809FE7006EE615 /* Images.xcassets */; };
+		D154E67B19809FE7006EE615 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D154E67A19809FE7006EE615 /* XCTest.framework */; };
+		D154E67C19809FE7006EE615 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D154E65B19809FE7006EE615 /* Foundation.framework */; };
+		D154E67D19809FE7006EE615 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D154E65F19809FE7006EE615 /* UIKit.framework */; };
+		D154E68519809FE7006EE615 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D154E68319809FE7006EE615 /* InfoPlist.strings */; };
+		D154E68719809FE7006EE615 /* YMDPickerVIewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D154E68619809FE7006EE615 /* YMDPickerVIewDemoTests.m */; };
+		D154E69219809FFF006EE615 /* YMDPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = D154E69119809FFF006EE615 /* YMDPickerView.m */; };
+		D154E6951980A13C006EE615 /* NSDate+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = D154E6941980A13C006EE615 /* NSDate+Helper.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D154E67E19809FE7006EE615 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D154E65019809FE7006EE615 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D154E65719809FE7006EE615;
+			remoteInfo = YMDPickerVIewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D154E65819809FE7006EE615 /* YMDPickerViewDemo.temp_caseinsensitive_rename.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YMDPickerViewDemo.temp_caseinsensitive_rename.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D154E65B19809FE7006EE615 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D154E65D19809FE7006EE615 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D154E65F19809FE7006EE615 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D154E66319809FE7006EE615 /* YMDPickerViewDemo.temp_caseinsensitive_rename-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YMDPickerViewDemo.temp_caseinsensitive_rename-Info.plist"; sourceTree = "<group>"; };
+		D154E66519809FE7006EE615 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D154E66719809FE7006EE615 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D154E66919809FE7006EE615 /* YMDPickerViewDemo.temp_caseinsensitive_rename-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YMDPickerViewDemo.temp_caseinsensitive_rename-Prefix.pch"; sourceTree = "<group>"; };
+		D154E66A19809FE7006EE615 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D154E66B19809FE7006EE615 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D154E66E19809FE7006EE615 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D154E67019809FE7006EE615 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D154E67119809FE7006EE615 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D154E67319809FE7006EE615 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D154E67919809FE7006EE615 /* YMDPickerViewDemo.temp_caseinsensitive_renameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YMDPickerViewDemo.temp_caseinsensitive_renameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D154E67A19809FE7006EE615 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D154E68219809FE7006EE615 /* YMDPickerViewDemo.temp_caseinsensitive_renameTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YMDPickerViewDemo.temp_caseinsensitive_renameTests-Info.plist"; sourceTree = "<group>"; };
+		D154E68419809FE7006EE615 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D154E68619809FE7006EE615 /* YMDPickerVIewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMDPickerVIewDemoTests.m; sourceTree = "<group>"; };
+		D154E69019809FFF006EE615 /* YMDPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMDPickerView.h; sourceTree = "<group>"; };
+		D154E69119809FFF006EE615 /* YMDPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMDPickerView.m; sourceTree = "<group>"; };
+		D154E6931980A13C006EE615 /* NSDate+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Helper.h"; sourceTree = "<group>"; };
+		D154E6941980A13C006EE615 /* NSDate+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Helper.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D154E65519809FE7006EE615 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D154E65E19809FE7006EE615 /* CoreGraphics.framework in Frameworks */,
+				D154E66019809FE7006EE615 /* UIKit.framework in Frameworks */,
+				D154E65C19809FE7006EE615 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D154E67619809FE7006EE615 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D154E67B19809FE7006EE615 /* XCTest.framework in Frameworks */,
+				D154E67D19809FE7006EE615 /* UIKit.framework in Frameworks */,
+				D154E67C19809FE7006EE615 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D154E64F19809FE7006EE615 = {
+			isa = PBXGroup;
+			children = (
+				D154E66119809FE7006EE615 /* YMDPickerVIewDemo */,
+				D154E68019809FE7006EE615 /* YMDPickerVIewDemoTests */,
+				D154E65A19809FE7006EE615 /* Frameworks */,
+				D154E65919809FE7006EE615 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D154E65919809FE7006EE615 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D154E65819809FE7006EE615 /* YMDPickerViewDemo.temp_caseinsensitive_rename.app */,
+				D154E67919809FE7006EE615 /* YMDPickerViewDemo.temp_caseinsensitive_renameTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D154E65A19809FE7006EE615 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D154E65B19809FE7006EE615 /* Foundation.framework */,
+				D154E65D19809FE7006EE615 /* CoreGraphics.framework */,
+				D154E65F19809FE7006EE615 /* UIKit.framework */,
+				D154E67A19809FE7006EE615 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D154E66119809FE7006EE615 /* YMDPickerVIewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D154E69019809FFF006EE615 /* YMDPickerView.h */,
+				D154E69119809FFF006EE615 /* YMDPickerView.m */,
+				D154E6931980A13C006EE615 /* NSDate+Helper.h */,
+				D154E6941980A13C006EE615 /* NSDate+Helper.m */,
+				D154E66A19809FE7006EE615 /* AppDelegate.h */,
+				D154E66B19809FE7006EE615 /* AppDelegate.m */,
+				D154E66D19809FE7006EE615 /* Main.storyboard */,
+				D154E67019809FE7006EE615 /* ViewController.h */,
+				D154E67119809FE7006EE615 /* ViewController.m */,
+				D154E67319809FE7006EE615 /* Images.xcassets */,
+				D154E66219809FE7006EE615 /* Supporting Files */,
+			);
+			path = YMDPickerVIewDemo;
+			sourceTree = "<group>";
+		};
+		D154E66219809FE7006EE615 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D154E66319809FE7006EE615 /* YMDPickerViewDemo.temp_caseinsensitive_rename-Info.plist */,
+				D154E66419809FE7006EE615 /* InfoPlist.strings */,
+				D154E66719809FE7006EE615 /* main.m */,
+				D154E66919809FE7006EE615 /* YMDPickerViewDemo.temp_caseinsensitive_rename-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D154E68019809FE7006EE615 /* YMDPickerVIewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				D154E68619809FE7006EE615 /* YMDPickerVIewDemoTests.m */,
+				D154E68119809FE7006EE615 /* Supporting Files */,
+			);
+			path = YMDPickerVIewDemoTests;
+			sourceTree = "<group>";
+		};
+		D154E68119809FE7006EE615 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D154E68219809FE7006EE615 /* YMDPickerViewDemo.temp_caseinsensitive_renameTests-Info.plist */,
+				D154E68319809FE7006EE615 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D154E65719809FE7006EE615 /* YMDPickerViewDemo.temp_caseinsensitive_rename */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D154E68A19809FE7006EE615 /* Build configuration list for PBXNativeTarget "YMDPickerViewDemo.temp_caseinsensitive_rename" */;
+			buildPhases = (
+				D154E65419809FE7006EE615 /* Sources */,
+				D154E65519809FE7006EE615 /* Frameworks */,
+				D154E65619809FE7006EE615 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YMDPickerViewDemo.temp_caseinsensitive_rename;
+			productName = YMDPickerVIewDemo;
+			productReference = D154E65819809FE7006EE615 /* YMDPickerViewDemo.temp_caseinsensitive_rename.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D154E67819809FE7006EE615 /* YMDPickerViewDemo.temp_caseinsensitive_renameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D154E68D19809FE7006EE615 /* Build configuration list for PBXNativeTarget "YMDPickerViewDemo.temp_caseinsensitive_renameTests" */;
+			buildPhases = (
+				D154E67519809FE7006EE615 /* Sources */,
+				D154E67619809FE7006EE615 /* Frameworks */,
+				D154E67719809FE7006EE615 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D154E67F19809FE7006EE615 /* PBXTargetDependency */,
+			);
+			name = YMDPickerViewDemo.temp_caseinsensitive_renameTests;
+			productName = YMDPickerVIewDemoTests;
+			productReference = D154E67919809FE7006EE615 /* YMDPickerViewDemo.temp_caseinsensitive_renameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D154E65019809FE7006EE615 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = ronaldo;
+				TargetAttributes = {
+					D154E67819809FE7006EE615 = {
+						TestTargetID = D154E65719809FE7006EE615;
+					};
+				};
+			};
+			buildConfigurationList = D154E65319809FE7006EE615 /* Build configuration list for PBXProject "YMDPickerViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D154E64F19809FE7006EE615;
+			productRefGroup = D154E65919809FE7006EE615 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D154E65719809FE7006EE615 /* YMDPickerViewDemo.temp_caseinsensitive_rename */,
+				D154E67819809FE7006EE615 /* YMDPickerViewDemo.temp_caseinsensitive_renameTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D154E65619809FE7006EE615 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D154E67419809FE7006EE615 /* Images.xcassets in Resources */,
+				D154E66619809FE7006EE615 /* InfoPlist.strings in Resources */,
+				D154E66F19809FE7006EE615 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D154E67719809FE7006EE615 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D154E68519809FE7006EE615 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D154E65419809FE7006EE615 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D154E67219809FE7006EE615 /* ViewController.m in Sources */,
+				D154E6951980A13C006EE615 /* NSDate+Helper.m in Sources */,
+				D154E69219809FFF006EE615 /* YMDPickerView.m in Sources */,
+				D154E66C19809FE7006EE615 /* AppDelegate.m in Sources */,
+				D154E66819809FE7006EE615 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D154E67519809FE7006EE615 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D154E68719809FE7006EE615 /* YMDPickerVIewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D154E67F19809FE7006EE615 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D154E65719809FE7006EE615 /* YMDPickerViewDemo.temp_caseinsensitive_rename */;
+			targetProxy = D154E67E19809FE7006EE615 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D154E66419809FE7006EE615 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D154E66519809FE7006EE615 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D154E66D19809FE7006EE615 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D154E66E19809FE7006EE615 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D154E68319809FE7006EE615 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D154E68419809FE7006EE615 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D154E68819809FE7006EE615 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D154E68919809FE7006EE615 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D154E68B19809FE7006EE615 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YMDPickerVIewDemo/YMDPickerViewDemo.temp_caseinsensitive_rename-Prefix.pch";
+				INFOPLIST_FILE = "YMDPickerVIewDemo/YMDPickerViewDemo.temp_caseinsensitive_rename-Info.plist";
+				PRODUCT_NAME = YMDPickerViewDemo.temp_caseinsensitive_rename;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D154E68C19809FE7006EE615 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YMDPickerVIewDemo/YMDPickerViewDemo.temp_caseinsensitive_rename-Prefix.pch";
+				INFOPLIST_FILE = "YMDPickerVIewDemo/YMDPickerViewDemo.temp_caseinsensitive_rename-Info.plist";
+				PRODUCT_NAME = YMDPickerViewDemo.temp_caseinsensitive_rename;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D154E68E19809FE7006EE615 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YMDPickerVIewDemo.app/YMDPickerVIewDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YMDPickerVIewDemo/YMDPickerVIewDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "YMDPickerVIewDemoTests/YMDPickerViewDemo.temp_caseinsensitive_renameTests-Info.plist";
+				PRODUCT_NAME = YMDPickerViewDemo.temp_caseinsensitive_renameTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D154E68F19809FE7006EE615 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YMDPickerVIewDemo.app/YMDPickerVIewDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YMDPickerVIewDemo/YMDPickerVIewDemo-Prefix.pch";
+				INFOPLIST_FILE = "YMDPickerVIewDemoTests/YMDPickerViewDemo.temp_caseinsensitive_renameTests-Info.plist";
+				PRODUCT_NAME = YMDPickerViewDemo.temp_caseinsensitive_renameTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D154E65319809FE7006EE615 /* Build configuration list for PBXProject "YMDPickerViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D154E68819809FE7006EE615 /* Debug */,
+				D154E68919809FE7006EE615 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D154E68A19809FE7006EE615 /* Build configuration list for PBXNativeTarget "YMDPickerViewDemo.temp_caseinsensitive_rename" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D154E68B19809FE7006EE615 /* Debug */,
+				D154E68C19809FE7006EE615 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D154E68D19809FE7006EE615 /* Build configuration list for PBXNativeTarget "YMDPickerViewDemo.temp_caseinsensitive_renameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D154E68E19809FE7006EE615 /* Debug */,
+				D154E68F19809FE7006EE615 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D154E65019809FE7006EE615 /* Project object */;
+}
