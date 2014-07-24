@@ -21,8 +21,8 @@
 		D154E67D19809FE7006EE615 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D154E65F19809FE7006EE615 /* UIKit.framework */; };
 		D154E68519809FE7006EE615 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D154E68319809FE7006EE615 /* InfoPlist.strings */; };
 		D154E68719809FE7006EE615 /* YMDPickerVIewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D154E68619809FE7006EE615 /* YMDPickerVIewDemoTests.m */; };
-		D154E69B1980B412006EE615 /* NSDate+YMDExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D154E6981980B412006EE615 /* NSDate+YMDExtensions.m */; };
-		D154E69C1980B412006EE615 /* YMDPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = D154E69A1980B412006EE615 /* YMDPickerView.m */; };
+		D154E6A21980B595006EE615 /* NSDate+YMDExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D154E69F1980B595006EE615 /* NSDate+YMDExtensions.m */; };
+		D154E6A31980B595006EE615 /* YMDPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = D154E6A11980B595006EE615 /* YMDPickerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,10 +55,10 @@
 		D154E68219809FE7006EE615 /* YMDPickerViewDemo.temp_caseinsensitive_renameTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YMDPickerViewDemo.temp_caseinsensitive_renameTests-Info.plist"; sourceTree = "<group>"; };
 		D154E68419809FE7006EE615 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D154E68619809FE7006EE615 /* YMDPickerVIewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMDPickerVIewDemoTests.m; sourceTree = "<group>"; };
-		D154E6971980B412006EE615 /* NSDate+YMDExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+YMDExtensions.h"; sourceTree = "<group>"; };
-		D154E6981980B412006EE615 /* NSDate+YMDExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+YMDExtensions.m"; sourceTree = "<group>"; };
-		D154E6991980B412006EE615 /* YMDPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMDPickerView.h; sourceTree = "<group>"; };
-		D154E69A1980B412006EE615 /* YMDPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMDPickerView.m; sourceTree = "<group>"; };
+		D154E69E1980B595006EE615 /* NSDate+YMDExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+YMDExtensions.h"; sourceTree = "<group>"; };
+		D154E69F1980B595006EE615 /* NSDate+YMDExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+YMDExtensions.m"; sourceTree = "<group>"; };
+		D154E6A01980B595006EE615 /* YMDPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMDPickerView.h; sourceTree = "<group>"; };
+		D154E6A11980B595006EE615 /* YMDPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMDPickerView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,7 +118,7 @@
 		D154E66119809FE7006EE615 /* YMDPickerVIewDemo */ = {
 			isa = PBXGroup;
 			children = (
-				D154E6961980B412006EE615 /* YMDPickerView */,
+				D154E69D1980B595006EE615 /* YMDPickerView */,
 				D154E66A19809FE7006EE615 /* AppDelegate.h */,
 				D154E66B19809FE7006EE615 /* AppDelegate.m */,
 				D154E66D19809FE7006EE615 /* Main.storyboard */,
@@ -159,16 +159,16 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		D154E6961980B412006EE615 /* YMDPickerView */ = {
+		D154E69D1980B595006EE615 /* YMDPickerView */ = {
 			isa = PBXGroup;
 			children = (
-				D154E6971980B412006EE615 /* NSDate+YMDExtensions.h */,
-				D154E6981980B412006EE615 /* NSDate+YMDExtensions.m */,
-				D154E6991980B412006EE615 /* YMDPickerView.h */,
-				D154E69A1980B412006EE615 /* YMDPickerView.m */,
+				D154E69E1980B595006EE615 /* NSDate+YMDExtensions.h */,
+				D154E69F1980B595006EE615 /* NSDate+YMDExtensions.m */,
+				D154E6A01980B595006EE615 /* YMDPickerView.h */,
+				D154E6A11980B595006EE615 /* YMDPickerView.m */,
 			);
 			path = YMDPickerView;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -267,11 +267,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D154E69B1980B412006EE615 /* NSDate+YMDExtensions.m in Sources */,
 				D154E67219809FE7006EE615 /* ViewController.m in Sources */,
+				D154E6A21980B595006EE615 /* NSDate+YMDExtensions.m in Sources */,
 				D154E66C19809FE7006EE615 /* AppDelegate.m in Sources */,
 				D154E66819809FE7006EE615 /* main.m in Sources */,
-				D154E69C1980B412006EE615 /* YMDPickerView.m in Sources */,
+				D154E6A31980B595006EE615 /* YMDPickerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
