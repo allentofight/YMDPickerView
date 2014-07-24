@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   s.name         = "YMDPickerView"
   s.version      = "0.1"
   s.summary      = "Custom DatePickerView, only show the selected Date years"
-  s.homepage     = "git@github.com:xiekunRonaldo/YMDPickerView"
+  s.homepage     = "https://github.com/xiekunRonaldo/YMDPickerView"
 
   s.license      = 'MIT'
   s.author       = { "allenToFight" => "dreamerxiekun@gmail.com" }
