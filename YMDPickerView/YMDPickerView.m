@@ -6,7 +6,7 @@
 //
 
 #import "YMDPickerView.h"
-#import "NSDate+Helper.h"
+#import "NSDate+YMDExtensions.h"
 
 #define kMonthColor [UIColor darkGrayColor]
 #define kYearColor [UIColor darkGrayColor]
