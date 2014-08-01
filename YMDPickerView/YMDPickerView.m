@@ -390,5 +390,8 @@ static inline NSInteger daysForYearMonth(NSInteger year, NSInteger month){
     return self;
 }
 
+- (void)setDate:(NSDate *)date{
+    [self _setupComponentsFromDate: date];
+}
 
 @end
