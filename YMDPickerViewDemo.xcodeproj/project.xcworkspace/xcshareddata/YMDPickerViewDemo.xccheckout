@@ -10,29 +10,29 @@
 	<string>YMDPickerViewDemo</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>6CC6F171-CE2E-4487-A847-13D5A03B91CD</key>
-		<string>ssh://github.com/xiekunRonaldo/YMDPickerView.git</string>
+		<key>9363E8351548D8EDC742BACA58CA2CA5A914212B</key>
+		<string>github.com:xiekunRonaldo/YMDPickerView.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>YMDPickerViewDemo.xcodeproj/project.xcworkspace</string>
+	<string>YMDPickerViewDemo.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>6CC6F171-CE2E-4487-A847-13D5A03B91CD</key>
+		<key>9363E8351548D8EDC742BACA58CA2CA5A914212B</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>ssh://github.com/xiekunRonaldo/YMDPickerView.git</string>
+	<string>github.com:xiekunRonaldo/YMDPickerView.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>6CC6F171-CE2E-4487-A847-13D5A03B91CD</string>
+	<string>9363E8351548D8EDC742BACA58CA2CA5A914212B</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>6CC6F171-CE2E-4487-A847-13D5A03B91CD</string>
+			<string>9363E8351548D8EDC742BACA58CA2CA5A914212B</string>
 			<key>IDESourceControlWCCName</key>
 			<string>YMDPickerView</string>
 		</dict>

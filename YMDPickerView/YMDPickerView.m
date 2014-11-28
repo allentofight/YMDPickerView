@@ -276,10 +276,10 @@ static inline NSInteger daysForYearMonth(NSInteger year, NSInteger month){
             if (dateComponents.month >= _monthIndex) {
 				_monthIndex = dateComponents.month - 1;
             }
-			_yearIndex = [_years indexOfObject: [NSString stringWithFormat: @"%lu", (unsigned long)dateComponents.year]];
+			_yearIndex = [_years indexOfObject: @(dateComponents.year)];
         }
         else {
-			_yearIndex = [_years indexOfObject: [NSString stringWithFormat: @"%lu", (unsigned long)dateComponents.year]];
+			_yearIndex = [_years indexOfObject: @(dateComponents.year)];
 			_monthIndex = dateComponents.month - 1;
         }
     }
